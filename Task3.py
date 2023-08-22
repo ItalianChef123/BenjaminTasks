@@ -9,7 +9,7 @@ while True:
     days = 0
     for i in range(1900, int(str(dt.date.today())[:4])):
         if i % 100 == 0 and i % 400 == 0 or i % 4 == 0 and i % 100 != 0:
-            seconds = seconds + 31622400
+              seconds = seconds + 31622400
         else:
             seconds = seconds + 31536000
 
